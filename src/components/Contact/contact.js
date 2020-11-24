@@ -297,14 +297,14 @@ const Contact = () => {
           </div>
           <div className={classes.faCode1}>
             <a
-              href="https://linkedin.com/pankajshah3"
+              href="https://linkedin.com/in/pankajshah3"
               style={{ color: "black" }}
             >
               {" "}
               <FontAwesomeIcon icon={faLinkedin} />{" "}
             </a>
             <a
-              href="https://linkedin.com/pankajshah3"
+              href="https://linkedin.com/in/pankajshah3"
               target="blank"
               className={classes.text}
             >
