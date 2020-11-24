@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ski-container{
   /* height: 200px; */
   width: calc(100vw );
@@ -24,4 +25,32 @@ margin: 10px 5px 30px 5px;
  i{ 
 
 }
+=======
+.ski-container{
+  /* height: 200px; */
+  width: calc(100vw );
+  text-align: center;
+
+
+}
+i{
+
+font-size: 50px;
+margin: 0px 30px 0px 30px; 
+}
+.ski-div{
+display: inline-block;
+margin-bottom: 30px;
+margin: 10px 5px 30px 5px;
+}
+.ski-div:hover{
+  
+  box-shadow: 0 0 10px 0 black;
+}
+
+@media only screen and (max-width: 480px) {
+ i{ 
+
+}
+>>>>>>> first commit
 }

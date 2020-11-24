@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   /* height: calc(100vh - 50px); */
   /* font-family: 'Cabin Sketch', cursive; */
@@ -139,3 +140,146 @@ font-size: 15px;
     display: none;
   }
 }
+=======
+.container {
+  /* height: calc(100vh - 50px); */
+  /* font-family: 'Cabin Sketch', cursive; */
+}
+
+.viewPage {
+  background-color: rgb(244, 247, 250);
+  /* height: calc(100vh - 50px); */
+  width: 100vw;
+}
+
+.texts {
+  color: black;
+  width: 50vw;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.circleImage {
+  height: 350px;
+  width: 350px;
+}
+
+.image {
+  width: 50vw;
+  height: 100%;
+  box-sizing: border-box;
+  float: right;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+.hii {
+  margin-left: 50px;
+  font-size: 40px;
+}
+.name {
+  margin-left: 50px;
+  font-size: 40px;
+}
+.list {
+  margin-left: 50px;
+  font-size: 40px;
+}
+.typeWrite {
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  transform: translate(150px, -46px);
+  /* position: relative;
+left:150px;
+top:-45px; */
+}
+.line {
+  margin-left: 50px;
+  margin: 10px;
+  margin-left: 50px;
+  width: 425px;
+  border-bottom: 5px solid tan;
+}
+.flexContainer {
+  /* display: flex; */
+  width: 425px;
+  /* justify-content: space-around; */
+  margin-left: 50px;
+  /* flex-wrap: wrap; */
+  /* height: 1000px; */
+  pointer-events: none;
+
+}
+
+.slick {
+  height: 20px;
+  width: 85px;
+  margin: 10px;
+  border: 2px solid red;
+  text-align: center;
+  padding: 5px;
+  padding-top: 8px;
+  border-radius: 5px;
+}
+
+/* .flexContainer >:hover{
+font-size: 20px;
+}
+.blockchain:hover{
+font-size: 15px;
+} */
+
+.little {
+  color: white;
+}
+
+
+
+.imageToHide {
+  display: none;
+}
+@media only screen and (max-width: 480px) {
+  .texts {
+    float: none;
+    width: 100vw;
+    padding-top: 30px;
+  }
+  .flexContainer {
+    width: calc(100vw - 100px);
+  }
+
+  .hii,
+  .name,
+  
+  .line{
+    margin: 10px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .typeWrite {
+    position:absolute;
+    transform: translate(50, 0);
+  }
+  .image {
+    display: none;
+  }
+  .imageToHide {
+    display: block;
+    position: relative;
+    left: calc(50% - 100px);
+
+
+  }
+  .circleImage {
+    height: 200px;
+    width: 200px;
+  }
+  .myselfContainer{
+    display: none;
+  }
+}
+>>>>>>> first commit
