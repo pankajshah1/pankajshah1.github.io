@@ -1,0 +1,126 @@
+*{
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+font-family: 'Rokkitt', serif;
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+.App {
+  font-family: sans-serif;
+  width: 100%;
+box-sizing: border-box;
+}
+
+.skills{
+margin:50px 0px 50px 0px;
+font-size: 40px;
+position: relative;
+left: calc(50% - 40px);
+}
+
+.procon{
+  left: calc(50% - 70px);
+}
+
+.header{
+  height: 50px;
+  box-sizing: border-box;
+  background-color: rgb(244, 247, 250);
+  color:white;
+  text-align: center;
+  
+}
+.menu{
+  margin: 10px;
+  margin-right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  float: right;
+  
+}
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align: center;
+
+
+}
+
+.overlayContent {
+  position: relative;
+  top: 25%;
+  /* width: 100%; */
+  text-align: center;
+  /* display: flex;
+  flex-flow: column; */
+}
+
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #e6d2d2;
+  display: inline-block;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.slider{
+  color: red;
+}
+
+.contactScroll{
+  
+}
+
+.resume1 , .resume2{
+margin: 50px;
+  color: black;
+  position: relative;
+  top: 20px;
+  transition: all 0.5s ease;
+
+
+}
+
+.resume1:hover, .resume2:hover{
+  border-bottom: 4px solid black;
+  border-color: lightgreen;
+
+}
+
+@media only screen and (max-width: 480px) {
+  .resume1 , .resume2{
+left: 30px;
+    }
+    
+
+
+}
