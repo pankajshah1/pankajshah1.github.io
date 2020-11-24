@@ -1,0 +1,149 @@
+.conContainer {
+}
+
+.viewPage {
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+  /* height: calc(100vh); */
+  width: 100vw;
+  background-color: #3a3d42;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.getInTouch {
+  height: 100%;
+  width: 60%;
+  border-right: 5px solid white;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  padding: 60px 50px 0px 50px;
+  color: white;
+}
+
+.getSocial {
+  height: 100%;
+  width: 40%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.formWrapper {
+}
+
+.firstP {
+  font-size: 50px;
+}
+.secondP {
+  font-size: 30px;
+  color: wheat;
+}
+
+form {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+input {
+  border: none;
+  background-color: #3a3d42;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  width: calc(100% - 300px);
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border-color: purple;
+  width: calc(100% - 100px);
+}
+textarea {
+  height: 110px;
+  width: calc(100% - 100px);
+  background-color: #3a3d42;
+  color: white;
+  border: 2px solid black;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  color: white;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: radial-gradient(
+    ellipse at center,
+    rgb(15, 17, 173) 0%,
+    rgb(8, 1, 74) 100%
+  );
+}
+
+.btn:hover {
+  transform: skew(10deg);
+}
+
+.faCode {
+  height: 70px;
+  width: 450px;
+  font-size: 50px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-flow: row;
+  margin-top: 100px;
+}
+
+.faCode1 {
+  height: 60px;
+  width: 400px;
+  margin-top: 30px;
+  font-size: 50px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-flow: row;
+}
+
+.text {
+  color: white;
+  margin-left: 40px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.text:hover {
+  color: wheat;
+}
+
+@media only screen and (max-width: 480px) {
+  .text {
+    display: none;
+  }
+
+  .viewPage {
+    display: block;
+  }
+  .getInTouch {
+    height: auto;
+    width: 100%;
+    border: none;
+  }
+  .getSocial {
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .faCode {
+    margin-top: 30px;
+  }
+  input {
+    width: calc(100% - 100px);
+  }
+}
