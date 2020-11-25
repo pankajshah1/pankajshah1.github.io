@@ -4,10 +4,6 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-<<<<<<< HEAD
-  "homepage": "https://pankajshah1.github.io/",
-=======
->>>>>>> first commit
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.32",
     "@fortawesome/free-brands-svg-icons": "5.15.1",
@@ -28,8 +24,6 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
