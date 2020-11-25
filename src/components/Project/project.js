@@ -321,7 +321,7 @@ console.log(e);
             <div className="github">
               view <FontAwesomeIcon icon={faCode} spin color="blue" /> at Github{" "}
               <a
-                href="https://github.com/Paankajshah/Simple-Lottery-System-using-Blockchain"
+                href="https://github.com/pankajshah1/pankajshah1.github.io"
                 target="_blank"
               >
                 <img className="github-icon" src="/images/github-brands.svg" />
