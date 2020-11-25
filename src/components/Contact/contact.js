@@ -215,7 +215,7 @@ const Contact = () => {
       })
       .catch((err) => {
         console.log(err);
-        setData("Pls Send Again");
+        setData("Please Send Again");
       });
   }
 
